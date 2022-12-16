@@ -41,7 +41,10 @@
                         data: {
                             0: {
                                 funcion: 'loadDisplay',
-                                data: { display: this._configuration.display, parametro: this._configuration.parametro }
+                                data: { 
+                                    display: this._configuration.display, 
+                                    parametro: this._configuration.parametro 
+                                }
                             }
                         },
                         success: function (html) {
